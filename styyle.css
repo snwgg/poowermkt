@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Power Marketing - Sua comunicação revolucionada</title>
   <style>
-    
+    /* Estilos CSS para personalização */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -16,6 +16,8 @@
       max-width: 960px;
       margin: 0 auto;
       padding: 20px;
+      background-color: #ffffff; /* Branco */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     h1 {
       color: #6f42c1; /* Roxo */
@@ -35,7 +37,7 @@
       text-align: center;
       margin: 0 10px;
       padding: 20px;
-      background-color: #fff;
+      background-color: #f7f7f7; /* Cinza claro */
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
     .service h2 {
