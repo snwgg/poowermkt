@@ -1,72 +1,59 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Power Marketing - Sua comunicação revolucionada</title>
-  <style>
-    /* Estilos CSS para personalização */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f2f2f2;
-    }
-    .container {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #ffffff; /* Branco */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      color: #6f42c1; /* Roxo */
-      text-align: center;
-    }
-    p {
-      color: #333; /* Preto */
-      text-align: center;
-    }
-    .services {
-      display: flex;
-      justify-content: center;
-      margin-top: 40px;
-    }
-    .service {
-      flex: 1;
-      text-align: center;
-      margin: 0 10px;
-      padding: 20px;
-      background-color: #f7f7f7; /* Cinza claro */
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-    .service h2 {
-      color: #6f42c1; /* Roxo */
-    }
-    .service p {
-      color: #333; /* Preto */
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>Power Marketing</h1>
-    <p>Prestamos serviços de Social Media e Marketing Digital</p>
-    <p>Fazemos fotografias e revolucionamos a maneira com que sua empresa comunica com o mundo</p>
-    <div class="services">
-      <div class="service">
-        <h2>Social Media</h2>
-        <p>Gerenciamos suas redes sociais, aumentando a visibilidade da sua marca e interação com o público.</p>
-      </div>
-      <div class="service">
-        <h2>Marketing Digital</h2>
-        <p>Desenvolvemos estratégias de marketing digital para impulsionar o crescimento do seu negócio online.</p>
-      </div>
-      <div class="service">
-        <h2>Fotografias</h2>
-        <p>Capturamos momentos e produtos com qualidade profissional para destacar sua empresa.</p>
-      </div>
-    </div>
-  </div>
-</body>
-</html>
+
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #8733ff;
+}
+
+h2 {
+  color: #7ed957;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+form {
+  margin-top: 40px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #8733ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7ed957;
+}
