@@ -57,3 +57,7 @@ button {
 button:hover {
   background-color: #7ed957;
 }
+.pode.png {
+  display: flex;
+  size: 30px;
+}
